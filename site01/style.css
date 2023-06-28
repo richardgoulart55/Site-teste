@@ -29,7 +29,7 @@ main {
 }
 
 .redes-sociais ul li {
-    margin-left: 15px;
+    margin-left: 20px;
     display: inline-block;
     list-style: none;
 }
@@ -48,13 +48,22 @@ main {
 
 .menu-urls {
     height: 80px;
-    border-bottom: 5px solid rgb(189, 186, 186);
+    border-bottom: 4px solid rgb(189, 186, 186);
 }
 
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
+    height: 49px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
 }
 
 .menu ul li a {
@@ -91,4 +100,14 @@ main {
     width: 100%;
     float: left;
     position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(img/anterior.png);
+    top: 35%;
 }
