@@ -16,7 +16,7 @@ ul {
     height: 60px;
 }
 
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
