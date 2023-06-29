@@ -158,3 +158,22 @@ li.slick-active button {
     padding-left: 10px;
     display: inline-block;
 }
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #353535;
+}
+
+.texto-destaque h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #777777;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #777777;
+}
