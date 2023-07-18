@@ -288,6 +288,21 @@ h3 {
     color: #c1c1c1;
     height: 47px;
     padding: 15px;
+    width: 97.8%;
+}
+
+.redes-sociais-2 ul li {
+    margin-left: 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes-sociais-2 {
+    position: relative;
+    width: 30%;
+    float: right;
+    top: -55px;
+    left: 25px;
 }
 
 .clock {
