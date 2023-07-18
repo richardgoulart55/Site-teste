@@ -236,3 +236,101 @@ h3 {
     height: 70px;
     background: #eeeeee;
 }
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img {
+    margin: 30px auto;
+    padding: 25px;
+    vertical-align: middle;
+}
+
+.col-4 img:hover {
+    margin-top: 40px;
+    position: relative;
+}
+
+.bloco-logos {
+    height: 200px;
+    border-top: 1px solid #b3b3b36c;
+    border-bottom: 3px solid rgb(133, 132, 132);
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+.footer h3 {
+    text-align: left;
+}
+
+.footer p {
+    color: #a7a6a6;
+    width: 230px;
+}
+
+.footer b {
+    color: #e0e0e0;
+}
+
+.footer {
+    background-color: #353535;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.footer-2 {
+    background-image: url(img/footer2.png);
+    color: #c1c1c1;
+    height: 47px;
+    padding: 15px;
+}
+
+.clock {
+    color: #898989;
+}
+
+.clock:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(img/clock.png);
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    color: #898989;
+}
+
+.location:before {
+    content: '';
+    width: 15px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(img/local.png);
+    background-repeat: no-repeat;
+    padding-left: 5%;
+}
+
+.email:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(img/email.png);
+    background-repeat: no-repeat;
+    padding-left: 5%;
+}
+
+.phone:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(img/telefoneico.png);
+    background-repeat: no-repeat;
+    padding-left: 5%;
+}
